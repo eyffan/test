@@ -1,0 +1,27 @@
+body {
+  background-color: rgb(249, 246, 235);
+}
+.intro {
+  text-align: center;
+  font-family: "Anaheim", sans-serif;
+  font-size: 18px;
+  padding: 100px;
+}
+
+p {
+  margin-bottom: 40px;
+}
+
+.paragraph {
+  font-family: "Thasadith", sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: rgb(77, 25, 25);
+}
+
+#underline {
+  text-decoration: underline;
+}
