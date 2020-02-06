@@ -1,0 +1,23 @@
+body {
+  background-image: url("original.gif");
+}
+h1 {
+  font-size: 40px;
+  color: white;
+  font-family: "Fugaz One", cursive;
+  position: absolute;
+  left: 90px;
+}
+
+p {
+  word-spacing: 100px;
+  font-size: 15px;
+  font-family: "Fugaz One", cursive;
+  color: white;
+  position: absolute;
+  bottom: 784px;
+  left: 400px;
+}
+.hi {
+  position: infinite;
+}
