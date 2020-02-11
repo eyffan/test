@@ -1,0 +1,117 @@
+body {
+  color: rgb(51, 51, 0);
+  background-color: black;
+  font-family: "Abel", sans-serif;
+}
+.one {
+  position: absolute;
+  right: 20px;
+}
+
+.two {
+  position: absolute;
+  right: 600px;
+  bottom: 200px;
+}
+
+.three {
+  position: absolute;
+  right: 1000px;
+  bottom: 5px;
+}
+
+.five {
+  position: absolute;
+  right: 40px;
+  bottom: -350px;
+}
+
+.six {
+  position: absolute;
+  right: 30px;
+  bottom: -100px;
+}
+
+.seven {
+  position: absolute;
+  right: 400px;
+  bottom: -400px;
+}
+
+.eight {
+  position: absolute;
+  right: 600px;
+  bottom: -600px;
+}
+
+.nine {
+  position: absolute;
+  right: 700px;
+  bottom: -900px;
+}
+
+.ten {
+  position: absolute;
+  right: 100px;
+  bottom: -1200px;
+}
+
+.eleven {
+  position: absolute;
+  right: 400px;
+  bottom: -1600px;
+}
+
+.twelve {
+  position: absolute;
+  right: 200px;
+  bottom: -2200px;
+}
+
+.thirteen {
+  position: absolute;
+  right: 500px;
+  bottom: -2500px;
+}
+
+.fourteen {
+  position: absolute;
+  right: 100px;
+  bottom: -2700px;
+}
+
+.fifteen {
+  position: absolute;
+  right: 700px;
+  bottom: -3000px;
+}
+
+.sixteen {
+  position: absolute;
+  right: 900px;
+  bottom: -3200px;
+}
+
+.seventeen {
+  position: absolute;
+  right: 100px;
+  bottom: -3300px;
+}
+
+.eighteen {
+  position: absolute;
+  right: 400px;
+  bottom: -3600px;
+}
+
+.nineteen {
+  position: absolute;
+  right: 800px;
+  bottom: -3800px;
+}
+
+.twenty {
+  position: absolute;
+  right: 900px;
+  bottom: -4000px;
+}
