@@ -1,117 +1,139 @@
 body {
-  color: rgb(51, 51, 0);
+  color: white;
   background-color: black;
   font-family: "Abel", sans-serif;
 }
 .one {
   position: absolute;
   right: 20px;
+  text-align: center;
+  padding-top: 50px;
 }
 
 .two {
   position: absolute;
   right: 600px;
-  bottom: 200px;
+  bottom: 30px;
+  text-align: center;
 }
 
 .three {
   position: absolute;
-  right: 1000px;
-  bottom: 5px;
+  right: 1100px;
+  bottom: 10px;
+  text-align: center;
 }
 
 .five {
   position: absolute;
-  right: 40px;
-  bottom: -350px;
+  right: 10px;
+  bottom: -300px;
+
+  text-align: center;
 }
 
 .six {
   position: absolute;
-  right: 30px;
-  bottom: -100px;
+  right: 700px;
+  bottom: -400px;
+  text-align: center;
 }
 
 .seven {
   position: absolute;
-  right: 400px;
-  bottom: -400px;
+  right: 300px;
+  bottom: -700px;
+  text-align: center;
 }
 
 .eight {
   position: absolute;
-  right: 600px;
-  bottom: -600px;
+  right: 800px;
+  bottom: -800px;
+  text-align: center;
 }
 
 .nine {
   position: absolute;
-  right: 700px;
-  bottom: -900px;
+  right: 100px;
+  bottom: -1000px;
+  text-align: center;
 }
 
 .ten {
   position: absolute;
-  right: 100px;
+  right: 900px;
   bottom: -1200px;
+  text-align: center;
 }
 
 .eleven {
   position: absolute;
   right: 400px;
   bottom: -1600px;
+  text-align: center;
 }
 
 .twelve {
   position: absolute;
   right: 200px;
   bottom: -2200px;
+  text-align: center;
 }
 
 .thirteen {
   position: absolute;
   right: 500px;
   bottom: -2500px;
+  text-align: center;
 }
 
 .fourteen {
   position: absolute;
-  right: 100px;
+  right: 900px;
   bottom: -2700px;
+  text-align: center;
 }
 
 .fifteen {
   position: absolute;
-  right: 700px;
+  right: 600px;
   bottom: -3000px;
+  text-align: center;
 }
 
 .sixteen {
   position: absolute;
-  right: 900px;
-  bottom: -3200px;
+  right: 100px;
+  bottom: -3080px;
+  text-align: center;
 }
 
 .seventeen {
   position: absolute;
-  right: 100px;
-  bottom: -3300px;
+  right: 800px;
+  bottom: -3600px;
+  text-align: center;
 }
 
 .eighteen {
   position: absolute;
-  right: 400px;
+  right: 300px;
   bottom: -3600px;
+  text-align: center;
 }
 
 .nineteen {
   position: absolute;
-  right: 800px;
-  bottom: -3800px;
+  right: 100px;
+  bottom: -4000px;
+  text-align: center;
 }
 
 .twenty {
   position: absolute;
   right: 900px;
-  bottom: -4000px;
+  bottom: -4200px;
+  padding-bottom: 50px;
+  text-align: center;
 }
