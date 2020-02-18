@@ -29,3 +29,9 @@ h1 {
 li {
   color: red;
 }
+
+.nav {
+  text-align: center;
+  color: rgb(77, 25, 25);
+  font-family: "Anaheim", sans-serif;
+}

@@ -1,6 +1,6 @@
 body {
   color: white;
-  background-color: black;
+  background-color: rgb(26, 26, 0);
   font-family: "Abel", sans-serif;
 }
 .one {
@@ -125,6 +125,8 @@ body {
 
 .nineteen {
   position: absolute;
+  right: 300px;
+  bottom: -3600px;
   right: 100px;
   bottom: -4000px;
   text-align: center;
