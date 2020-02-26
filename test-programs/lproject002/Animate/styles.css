@@ -1,0 +1,74 @@
+.my-element {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 0px dotted black;
+  background-color: green;
+}
+
+.my-element:hover {
+  border: 20px solid lightgreen;
+  transition: all ease-in-out 0.5s;
+  background-color: green;
+}
+
+.my-element2 {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 0px dotted black;
+  background-color: green;
+}
+
+.my-element2:hover {
+  border: 20px solid lightgreen;
+  transition: all ease-in-out 0.5s;
+  background-color: green;
+}
+
+.my-element3 {
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  display: inline-block;
+  border: 0px solid black;
+  background-color: green;
+}
+
+.my-element3:hover {
+  border: 20px solid lightgreen;
+  transition: all ease-in-out 0.5s;
+  background-color: green;
+}
+
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: #F44336;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+.bounce-6 {
+    position: absolute;
+    right: 200px;
+    animation-name: bounce-6;
+    animation-timing-function: ease;
+}
+@keyframes bounce-6 {
+    0%   { transform: scale(1,1)      translateY(0); }
+    10%  { transform: scale(1.1,.9)   translateY(0); }
+    30%  { transform: scale(.9,1.1)   translateY(-100px); }
+    50%  { transform: scale(1.05,.95) translateY(0); }
+    57%  { transform: scale(1,1)      translateY(-7px); }
+    64%  { transform: scale(1,1)      translateY(0); }
+    100% { transform: scale(1,1)      translateY(0); }
+}
+
+
+
+Resources
