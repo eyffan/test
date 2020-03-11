@@ -1,0 +1,65 @@
+body {
+  background-color: gray;
+}
+.brownsquare {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(96, 64, 32);
+  position: absolute;
+  left: 600px;
+  animation: infinite-spinning 3s infinite;
+}
+
+.beigesquare {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(210, 166, 121);
+  position: absolute;
+  animation: infinite-spinning 3s infinite;
+}
+
+.brownsquare2 {
+  width: 250px;
+  height: 250px;
+  background-color: rgb(96, 64, 32);
+  position: absolute;
+  right: 400px;
+  animation: infinite-spinning 3s infinite;
+}
+
+.beigesquare2 {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(210, 166, 121);
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+  animation: infinite-spinning 3s infinite;
+}
+
+.brownsquare3 {
+  width: 300px;
+  height: 300px;
+  background-color: rgb(96, 64, 32);
+  position: absolute;
+  bottom: 100px;
+  animation: infinite-spinning 3s infinite;
+}
+
+.beigesquare3 {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(210, 166, 121);
+  position: absolute;
+  right: 100px;
+  animation: infinite-spinning 3s infinite;
+}
+
+@keyframes infinite-spinning {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

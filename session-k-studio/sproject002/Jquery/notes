@@ -1,0 +1,27 @@
+<script>
+
+    var images = [
+        "img1.jpg",
+        "img2.jpg",
+        "img3.jpg",
+        "img4.jpg",
+        "img5.jpg",
+        "img6.jpg",
+        "img7.jpg",
+    ];
+
+</script>
+
+function display_image() {
+    selected_image = select_random(images);
+    $('hero_image').attr("src", selected_image);
+}
+
+// make sure to put <button> </button> on your html
+$(document).ready(function(){
+    display_image();
+    #('button').click(function(){
+        dissplay_image();
+    });
+    })
+})

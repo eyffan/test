@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+  margin-left: 700px;
+  margin-top: 400px;
+  font-family: "Passion One";
+}
+
+.button {
+  font-family: "Passion One";
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: white;
+  border: solid black;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  background-color: green;
+}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px white;
+  transform: translateY(4px);
+  font-family: "Passion One";
+  border: solid black;
+}
