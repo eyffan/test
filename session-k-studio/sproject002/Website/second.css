@@ -5,143 +5,348 @@
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   background-color: black;
-  background-image: linear-gradient(
-    to left,
-    violet,
-    indigo,
-    blue,
-    green,
-    yellow,
-    orange,
-    red
-  );
 }
 
 .div1 {
   grid-area: 1 / 1 / 4 / 6;
+  background: red;
+  width: 50px;
+  height: 60px;
+  position: relative;
   color: white;
   text-align: center;
-  margin-top: 500px;
+  margin-top: 300px;
+  margin-left: 500px;
   font-family: "Passion One";
   font-size: 50px;
+  animation-name: myanimation;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes myanimation {
+  0% {
+    background-color: yellow;
+    left: 300px;
+    top: 0px;
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    background-color: red;
+    left: 300px;
+    top: 300px;
+    border-radius: 50% 50% 50% 50%;
+  }
+  50% {
+    background-color: green;
+    left: 300px;
+    top: 0px;
+    border-radius: 50% 50% 50% 50%;
+  }
+  80% {
+    background-color: blue;
+    left: 300px;
+    top: 300px;
+    border-radius: 50% 50% 50% 50%;
+  }
+  100% {
+    background-color: orange;
+    left: 300px;
+    top: 0px;
+    border-radius: 50% 50% 50% 50%;
+  }
 }
 .p1 {
   grid-area: 4 / 1 / 5 / 2;
-  text-align: center;
+  border: 8px solid white;
 }
+
+.p1:hover {
+  animation: shake 0.5s infinite;
+}
+
 .p2 {
   grid-area: 4 / 2 / 5 / 3;
   text-align: center;
+  border: 8px solid white;
 }
+
+.p2:hover {
+  animation: shake 0.6s infinite;
+}
+
 .p3 {
   grid-area: 4 / 3 / 5 / 4;
   text-align: center;
+  border: 8px solid white;
 }
+
+.p3:hover {
+  animation: shake 0.6s infinite;
+}
+
 .p4 {
   grid-area: 4 / 4 / 5 / 5;
   text-align: center;
+  border: 8px solid white;
 }
+
+.p4:hover {
+  animation: shake 0.6s infinite;
+}
+
 .p5 {
   grid-area: 4 / 5 / 5 / 6;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p5:hover {
+  animation: shake 0.6s infinite;
 }
 .p6 {
   grid-area: 5 / 1 / 6 / 2;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p6:hover {
+  animation: shake 0.6s infinite;
 }
 .p7 {
   grid-area: 5 / 2 / 6 / 3;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p7:hover {
+  animation: shake 0.6s infinite;
 }
 .p8 {
   grid-area: 5 / 3 / 6 / 4;
   text-align: center;
+  border: 8px solid white;
 }
+
+.p8:hover {
+  animation: shake 0.6s infinite;
+}
+
 .p9 {
   grid-area: 5 / 4 / 6 / 5;
   text-align: center;
+  border: 8px solid white;
 }
+
+.p9:hover {
+  animation: shake 0.6s infinite;
+}
+
 .p10 {
   grid-area: 5 / 5 / 6 / 6;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p10:hover {
+  animation: shake 0.6s infinite;
 }
 .p11 {
   grid-area: 6 / 1 / 7 / 2;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p11:hover {
+  animation: shake 0.6s infinite;
 }
 .p12 {
   grid-area: 6 / 2 / 7 / 3;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p12:hover {
+  animation: shake 0.6s infinite;
 }
 .p13 {
   grid-area: 6 / 3 / 7 / 4;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p13:hover {
+  animation: shake 0.6s infinite;
 }
 .p14 {
   grid-area: 6 / 4 / 7 / 5;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p14:hover {
+  animation: shake 0.6s infinite;
 }
 .p15 {
   grid-area: 6 / 5 / 7 / 6;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p15:hover {
+  animation: shake 0.6s infinite;
 }
 .p16 {
   grid-area: 7 / 1 / 8 / 2;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p16:hover {
+  animation: shake 0.6s infinite;
 }
 .p17 {
   grid-area: 7 / 2 / 8 / 3;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p17:hover {
+  animation: shake 0.6s infinite;
 }
 .p18 {
   grid-area: 7 / 3 / 8 / 4;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p18:hover {
+  animation: shake 0.6s infinite;
 }
 .p19 {
   grid-area: 7 / 4 / 8 / 5;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p19:hover {
+  animation: shake 0.6s infinite;
 }
 .p20 {
   grid-area: 7 / 5 / 8 / 6;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p20:hover {
+  animation: shake 0.6s infinite;
 }
 .p21 {
   grid-area: 8 / 1 / 9 / 2;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p21:hover {
+  animation: shake 0.6s infinite;
 }
 .p22 {
   grid-area: 8 / 2 / 9 / 3;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p22:hover {
+  animation: shake 0.6s infinite;
 }
 .p23 {
   grid-area: 8 / 3 / 9 / 4;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p23:hover {
+  animation: shake 0.6s infinite;
 }
 .p24 {
   grid-area: 8 / 4 / 9 / 5;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p24:hover {
+  animation: shake 0.6s infinite;
 }
 .p25 {
   grid-area: 8 / 5 / 9 / 6;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p25:hover {
+  animation: shake 0.6s infinite;
 }
 .p26 {
   grid-area: 9 / 1 / 10 / 2;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p26:hover {
+  animation: shake 0.6s infinite;
 }
 .p27 {
   grid-area: 9 / 2 / 10 / 3;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p27:hover {
+  animation: shake 0.6s infinite;
 }
 .p28 {
   grid-area: 9 / 3 / 10 / 4;
   text-align: center;
+  border: 8px solid white;
 }
+
+.p28:hover {
+  animation: shake 0.6s infinite;
+}
+
 .p29 {
   grid-area: 9 / 4 / 10 / 5;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p29:hover {
+  animation: shake 0.6s infinite;
 }
 .p30 {
   grid-area: 9 / 5 / 10 / 6;
   text-align: center;
+  border: 8px solid white;
+}
+
+.p30:hover {
+  animation: shake 0.6s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(1px, 1px) rotate(4deg);
+  }
+  50% {
+    transform: translate(-1px, -1px) rotate(-4deg);
+  }
+  75% {
+    transform: translate(2px, -1px) rotate(5deg);
+  }
+  100% {
+    transform: translate(-1px, 1px) rotate(-4deg);
+  }
 }
