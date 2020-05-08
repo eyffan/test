@@ -7,6 +7,7 @@ h1 {
   font-family: "Fugaz One", cursive;
   position: absolute;
   left: 90px;
+  top: -20px;
 }
 
 p {
@@ -20,4 +21,25 @@ p {
 }
 .hi {
   position: infinite;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+}
+
+.links a:hover {
+  background: gold;
+}
+
+.links a:active {
+  background: saddlebrown;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: -310px;
+  top: 1100px;
 }
